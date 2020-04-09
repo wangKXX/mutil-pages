@@ -64,7 +64,6 @@ module.exports = {
     port: 8080,
     proxy: {
       "/local": {
-        target: "https://unexapi-sit.baozun.com/",
         changeOrigin: true,
         pathRewrite: {
           "^/local": ""
